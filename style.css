@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+#hero-img {
+    background-image: url(images/space.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-wrapper {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-wrapper h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-wrapper p {
+    text-align: center;
+    font-size: 15px;
+    color: brown;
+    font-weight: bold;
+    background-color: lightgray;
+    opacity: 0.7;
+}
+
+.hero-wrapper .form1 {
+    display: block;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.hero-wrapper .form1 input {
+    padding-left: 10px;
+    border-radius: 30px;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.hero-wrapper .form1 input::placeholder {
+    padding-left: 30px;
+}
+
+.hero-wrapper .form1 button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.hero-wrapper .form1 button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.hero-wrapper .form1 .galaxy-button {
+    width: 100px;
+    height: 30px;
+    /* margin-top: 10px; */
+    margin-left: 60px;
+    border: 1px solid darkred;
+    border-radius: 3px;
+    color: red;
+    background-color: cyan;
+    text-decoration: none;
+}
+
+.hero-wrapper .form1 label{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    border: 3px double yellow;
+    border-radius: 4px;
+    color: purple;
+    background-color: aliceblue;
+}
+
+/* galaxies */
+.galaxies {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.galaxy-lists {
+    float: left;
+    padding: 10px;
+    width: 33.33%;
+    border: 2px double darkblue;
+    margin-bottom: 100px;
+}
+
+.galaxy-lists img {
+    margin-left: 160px;
+}
+
+.galaxy-lists h2 {
+    text-align: center;
+}
